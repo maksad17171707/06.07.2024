@@ -1,0 +1,46 @@
+body, h2{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(0, 255, 149);
+    height: 60px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+main {
+    display: flex;
+    height: 80%;
+}
+
+nav {
+    background-color: rgb(255, 221, 176);
+    width: 40%;
+}
+
+article {
+    background-color: rgb(99, 255, 255);
+    width: 60%;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
